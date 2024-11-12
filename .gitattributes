@@ -2,3 +2,10 @@
 /.yarn/releases/*    binary
 /.yarn/plugins/**/*  binary
 /.pnp.*              binary linguist-generated
+
+* text=auto
+
+# Require Unix line endings
+* text eol=lf
+
+* linguist-language=rust
